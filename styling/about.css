@@ -1,0 +1,36 @@
+.about img {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.contact {
+    background: #b5cec5;
+    color: white;
+}
+
+.contact-links {
+    margin-top: 15px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Mobile Landcape */
+@media screen and (min-width: 375px) {
+}
+
+/* Tablet */
+@media screen and (min-width: 706px) {
+    .about img {
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+}

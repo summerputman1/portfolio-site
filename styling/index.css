@@ -1,0 +1,49 @@
+.title {
+    color: #efc862;
+    text-shadow: 3px 2px 3px rgb(53, 53, 53);
+}
+
+.intro-header {
+    background-image: url(../images/home_hero.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 350px;
+    padding-top: 90px;
+}
+
+.intro-about {
+    background-color: rgb(245, 245, 245);
+    box-shadow: 1px 1px 6px 3px rgba(8, 8, 8, 0.123);
+}
+
+.intro-about p {
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.recommendations h5 {
+    color: #cf3047;
+    font-weight: 600;
+}
+
+/* Mobile Landcape */
+@media screen and (min-width: 375px) {
+}
+
+/* Tablet */
+@media screen and (min-width: 706px) {
+    .intro-header {
+        padding-top: 140px;
+        height: 400px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .intro-header {
+        padding-top: 190px;
+        height: 500px;
+    }
+}
