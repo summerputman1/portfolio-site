@@ -1,15 +1,84 @@
 section {
-    min-height: 500px;
-
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
-.bookworm {
+
+h5 {
+    font-size: 1.2em;
+}
+
+section img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bookworm, .bookworm .title a {
     background-color: #cf3047;
+    color: #f2d7c6;
 }
 
-.cook {
+.bookworm .description {
+    margin-top: 20px;
+}
+
+.bookworm .title {
+    color: #f2d7c6;
+    margin-top: 40px;
+}
+
+.bookworm .title a:after {
+    border-bottom: 1.5px solid #f2d7c6;
+}
+
+.cook, .cook .title a {
     background-color: #efc862;
+    color: #cf3047;
 }
 
-.dictionary {
+.dictionary, .dictionary .title a {
+    background-color: #f2d7c6;
+    color: #cf3047;
+}
+
+.description {
+    color: black;
+}
+
+.description p {
+    text-align: left;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.title h4 {
+    margin-bottom: 10px;
+}
+
+.title a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.title a:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    border-bottom: 1.5px solid #cf3047;
+    transition: .5s;
+    width: 50px;
+  }
+  
+  .title a:hover:after {
+    width: 100px;
+  }
+
+footer {
     background-color: #f2d7c6;
 }

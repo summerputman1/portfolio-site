@@ -1,10 +1,10 @@
 .title {
-    color: #efc862;
-    text-shadow: 3px 2px 3px rgb(53, 53, 53);
+    color: #7b003d;
+    text-shadow: 3px 2px 3px rgba(71, 71, 71, 0.541);
 }
 
 .intro-header {
-    background-image: url(../images/home_hero.jpg);
+    background-image: url(../images/home_hero\ 2.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,8 +24,9 @@
 }
 
 .recommendations h5 {
-    color: #cf3047;
+    color: #7b003d;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
 /* Mobile Landcape */

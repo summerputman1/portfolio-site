@@ -63,17 +63,19 @@ nav {
   margin-top: 20px;
 }
 
-nav a {
+.nav-links a {
   padding: 5px;
+  padding-bottom: 2px;
   margin: 0 5px;
-  color: #cf3047;
+  color: #7b003d;
   text-decoration: none;
   font-size: 1.2em;
   font-family: "montserrat";
+  transition: .2s;
 }
 
-.active {
-  color: #efc862;
+.active, .nav-links a:hover {
+  border-bottom: 2px solid #7b003d;
 }
 
 footer {
@@ -91,15 +93,16 @@ button {
   padding: 10px 20px;
   font-size: 0.9em;
   font-family: "montserrat";
-  color: #cf3047;
+  color: #7b003d;
   border-radius: 30px;
-  border: 1px solid #cf3047;
+  border: 1px solid #7b003d;
   text-transform: uppercase;
   margin: 20px auto;
+  transition: .2s;
 }
 
 button:hover {
-  background: #cf3047;
+  background: #7b003d;
   color: white;
 }
 

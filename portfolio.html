@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styling/style.css" />
     <link rel="stylesheet" href="styling/utility.css" />
     <link rel="stylesheet" href="styling/portfolio.css" />
+    <link rel="stylesheet" href="styling/carousel.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:300,400,700&display=swap"
         rel="stylesheet" />
 </head>
@@ -33,13 +34,82 @@
     </header>
     <main>
         <section class="bookworm">
-            <!-- link to boomworm.netlify.com -->
+            <div class="slider">
+                <a class="arrow" id="left-arrow" onclick="plusSlides(-1)">&#10094;</a>
+
+                <div class="mySlides fade">
+                    <img src="./images/portfolio/BookWorm/mockup.png" />
+                </div>
+                <div class="mySlides fade">
+                    <img src="./images/portfolio/Lets Cook/mockup.png" />
+                </div>
+                <div class="mySlides fade">
+                    <img src="./images/portfolio/Dictionary/mockup.png" />
+                </div>
+
+                <a class="arrow" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <div class="m-90 center">
+                <div class="title">
+                    <h4 class="center">BookWorm</h4>
+                    <a target="_blank" href="https://bookworm-summer-rollison.netlify.com/">View Live Site</a>
+                </div>
+                <div class="description">
+                    <h5>Redux, React, JavaScript, Local Storage</h5>
+                    <p>Description goes here</p>
+                    <p>Future Improvements:</p>
+                    <ul>
+                        <li>Add user account capabilities</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section class="cook">
-            <!-- link to lets-cook.netlify.com -->
+            <div class="m-90 center">
+                <img src="./images/portfolio/Lets Cook/mockup.png" />
+                <div class="title">
+                    <h4 class="center">Let's Cook</h4>
+                    <a target="_blank" href="https://lets-cook.netlify.com/">View Live Site</a>
+                </div>
+                <div class="description">
+                    <h5>React, JavaScript</h5>
+                    <p>Using a REST API, Let's Cook allows you to search for recipes based on any ingredient you have
+                        already. Users also have the quick search option when they are just looking for inspiration.
+                        Since food allergies are a common concern when meal planning, all food allergens are clearly
+                        labeled before the user even clicks on the recipe link.</p>
+                    <p>Future Improvements:</p>
+                    <ul>
+                        <li>Add user account capabilities</li>
+                        <li>Allow user to save favorite recipes</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section class="dictionary">
-            <!-- link to dictionary-app.netlify.com -->
+            <div class="m-90 center">
+                <img src="./images/portfolio/Dictionary/mockup.png" />
+                <div class="title">
+                    <h4 class="center">Dictionary & Thesaurus</h4>
+                    <a target="_blank" href="https://summerrollison.github.io/dictionary-tthesaurus/">View Live Site</a>
+                </div>
+                <div class="description">
+                    <h5>JavaScript</h5>
+                    <p>Coming from a family of writers, I have a healthy appreciation for both a dictionary and
+                        thesaurus. The goal of this project was to consume my first API and
+                        create a clean UX using only JavaScript. This was a practice in JS best practices and a great
+                        learning experience.</p>
+                    <p>Future Improvements:</p>
+                    <ul>
+                        <li>Improve UI</li>
+                        <li>Allow user to click on a synonym to search again</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -53,6 +123,7 @@
                 alt="Instagram" src="./images/instagram.png" width="25px" /></a>
     </footer>
 
+    <script src="./carsousel.js"></script>
 </body>
 
 </html>
