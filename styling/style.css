@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: "open sans";
   color: rgb(43, 43, 43);
+  word-spacing: .2em;
 }
 
 main {
@@ -21,7 +22,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat";
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
 }
 

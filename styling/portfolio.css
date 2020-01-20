@@ -1,6 +1,6 @@
 section {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 h5 {
@@ -11,46 +11,52 @@ section img {
     width: 100%;
 }
 
-ul {
-    list-style-type: none;
-    text-align: left;
-    padding-left: 10px;
-}
-
 .bookworm, .bookworm .title a {
-    background-color: #cf3047;
-    color: #f2d7c6;
+    background-color: #dac4c9;
+    color: #52022b;
 }
 
 .bookworm .description {
     margin-top: 20px;
+    color: #52022b;
 }
 
 .bookworm .title {
-    color: #f2d7c6;
     margin-top: 40px;
 }
 
 .bookworm .title a:after {
-    border-bottom: 1.5px solid #f2d7c6;
+    border-bottom: 1.5px solid #52022b;
 }
 
 .cook, .cook .title a {
-    background-color: #efc862;
-    color: #cf3047;
+    background-color: #853b4b;
+    color: #dac4c9;
 }
 
 .dictionary, .dictionary .title a {
-    background-color: #f2d7c6;
-    color: #cf3047;
+    background-color: #52022b;
+    color: #dac4c9
+}
+
+.icons img {
+    width: 60px;
+    margin: 20px 10px;
 }
 
 .description {
-    color: black;
+    color: #dac4c9;
 }
 
 .description p {
     text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.links {
+    display: inline-block;
+    margin: 0 20px;
 }
 
 .title {
@@ -68,17 +74,21 @@ ul {
 .title a:after {
     content: "";
     display: block;
-    margin: 0 auto;
+    margin-left: 0;
     padding-top: 5px;
-    border-bottom: 1.5px solid #cf3047;
+    border-bottom: 1.5px solid #dac4c9;
     transition: .5s;
-    width: 50px;
+    width: 50%;
   }
   
   .title a:hover:after {
-    width: 100px;
+    width: 100%;
   }
 
 footer {
-    background-color: #f2d7c6;
+    background-color: #52022b;
+}
+
+.slider {
+    max-width: 400px;
 }
