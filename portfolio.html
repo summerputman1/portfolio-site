@@ -1,151 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="author" content="Summer Rollison" />
-    <meta name="description" content="Summer Rollison is a San Antonio based Web
-    Developer with a strong graphic design background." />
+    <meta
+      name="description"
+      content="Summer Rollison is a San Antonio based Web
+    Developer with a strong graphic design background."
+    />
     <title>Portfolio | Summer Rollison</title>
-    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="shortcut icon" href="./images/favicon24.png" />
     <link rel="stylesheet" href="styling/style.css" />
     <link rel="stylesheet" href="styling/utility.css" />
     <link rel="stylesheet" href="styling/portfolio.css" />
     <link rel="stylesheet" href="styling/carousel.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:300,400,700&display=swap"
-        rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="nav-logo">
-                <a href="/"><img alt="" src="images/logo.png" /></a>
-            </div>
-            <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="/about.html">About</a>
-                <a href="/resume.html">Resume</a>
-                <a href="/portfolio.html" class="active">Portfolio</a>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav-logo">
+          <a href="/"><img alt="" src="images/logo.png" /></a>
+        </div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <!-- <a href="/about.html">About</a>
+          <a href="/resume.html">Resume</a> -->
+          <a href="/portfolio.html" class="active">Portfolio</a>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="bookworm">
-            <div class="slider">
-                <a class="arrow" id="left-arrow" onclick="plusSlides(-1)">&#10094;</a>
+      <section class="bookworm">
+        <div class="slider">
+          <a class="arrow" id="left-arrow" onclick="plusSlides(-1)">&#10094;</a>
 
-                <div class="mySlides fade">
-                    <img src="./images/portfolio/BookWorm/bookworm1_crop.png" />
-                </div>
-                <div class="mySlides fade">
-                    <img src="./images/portfolio/BookWorm/bookworm2_crop.png" />
-                </div>
-                <div class="mySlides fade">
-                    <img src="./images/portfolio/BookWorm/bookworm3_crop.png" />
-                </div>
+          <div class="mySlides fade">
+            <img src="./images/portfolio/BookWorm/bookworm1_crop.png" />
+          </div>
+          <div class="mySlides fade">
+            <img src="./images/portfolio/BookWorm/bookworm2_crop.png" />
+          </div>
+          <div class="mySlides fade">
+            <img src="./images/portfolio/BookWorm/bookworm3_crop.png" />
+          </div>
 
-                <a class="arrow" onclick="plusSlides(1)">&#10095;</a>
+          <a class="arrow" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <div class="m-90 center">
+          <div class="title">
+            <h4 class="center">BookWorm</h4>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://bookworm-summer-putman.netlify.com/"
+                aria-label="Live site, opens in new tab"
+                >View Live Site</a
+              >
             </div>
-            <div class="center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://github.com/SummerPutman1/bookworm"
+                aria-label="GitHub repo, opens in new tab"
+                >View GitHub Repo</a
+              >
             </div>
-            <div class="m-90 center">
-                <div class="title">
-                    <h4 class="center">BookWorm</h4>
-                    <div class="links">
-                        <a target="_blank" href="https://bookworm-summer-rollison.netlify.com/"
-                            aria-label="Live site, opens in new tab">View Live Site</a>
-                    </div>
-                    <div class="links">
-                        <a target="_blank" href="https://github.com/SummerRollison/bookworm"
-                            aria-label="GitHub repo, opens in new tab">View GitHub Repo</a>
-                    </div>
-
-                </div>
-                <div class="description">
-                    <p>Allows user to set reading goals and track their progress. Users can search for books by title
-                        and/or author name and even save titles that they want to read. The app tracks every book the
-                        user has marked as read even when they reach and reset their goal.
-                    </p>
-                    <h5>Skills Used: Redux, React, React Router, JavaScript, Local Storage</h5>
-                    <div class="icons">
-                        <img src="/images/icons/redux_dark.png" alt="Redux logo" />
-                        <img src="/images/icons/react_dark.png" alt="React logo" />
-                        <img src="/images/icons/js_dark.png" alt="JavaScript logo" />
-                    </div>
-                </div>
+          </div>
+          <div class="description">
+            <p>
+              Allows user to set reading goals and track their progress. Users
+              can search for books by title and/or author name and even save
+              titles that they want to read. The app tracks every book the user
+              has marked as read even when they reach and reset their goal.
+            </p>
+            <h5>
+              Skills Used: Redux, React, React Router, JavaScript, Local Storage
+            </h5>
+            <div class="icons">
+              <img src="/images/icons/redux_dark.png" alt="Redux logo" />
+              <img src="/images/icons/react_dark.png" alt="React logo" />
+              <img src="/images/icons/js_dark.png" alt="JavaScript logo" />
             </div>
-        </section>
-        <section class="cook">
-            <div class="m-90 center">
-                <img src="./images/portfolio/Lets Cook/cook_cropped.png" />
-                <div class="title">
-                    <h4 class="center">Let's Cook</h4>
-                    <div class="links"><a target="_blank" href="https://lets-cook.netlify.com/"
-                            aria-label="Live site, opens in new tab">View Live Site</a></div>
-                    <div class="links"><a target="_blank" href="https://github.com/SummerRollison/lets-cook"
-                            aria-label="GitHub repo, opens in new tab">View GitHub Repo</a>
-                    </div>
-                </div>
-                <div class="description">
-                    <p>Users can search for recipes based on any ingredient they have in their kitchens or find
-                        inspiration with the quick search options. With food allergies being a common concern when meal
-                        planning, all food allergens are clearly labeled before the user even clicks to open a recipe
-                        fully, saving them time and energy.</p>
-                    <h5>Skills Used: React, React Router, JavaScript</h5>
-                    <div class="icons">
-                        <img src="/images/icons/react_light.png" alt="React logo" />
-                        <img src="/images/icons/js_light.png" alt="JavaScript logo" />
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="cook">
+        <div class="m-90 center">
+          <img src="./images/portfolio/Lets Cook/cook_cropped.png" />
+          <div class="title">
+            <h4 class="center">Let's Cook</h4>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://lets-cook.netlify.com/"
+                aria-label="Live site, opens in new tab"
+                >View Live Site</a
+              >
             </div>
-        </section>
-        <section class="dictionary">
-            <div class="m-90 center">
-                <img src="./images/portfolio/Dictionary/diction_cropped.png" />
-                <div class="title">
-                    <h4 class="center">Dictionary & Thesaurus</h4>
-                    <div class="links">
-                        <a target="_blank" href="https://summerrollison.github.io/dictionary-tthesaurus/"
-                            aria-label="Live site, opens in new tab">View Live
-                            Site</a>
-                    </div>
-                    <div class="links">
-                        <a target="_blank" href="https://github.com/SummerRollison/dictionary-tthesaurus"
-                            aria-label="GitHub repo, opens in new tab">View GitHub Repo</a>
-                    </div>
-                </div>
-                <div class="description">
-                    <p>My first JavaScript project consumed the Words API to create a combined dictionary
-                        and thesaurus. This simple project was a great learning experience that focused on interacting
-                        with an API efficiently.
-                    </p>
-                    <h5>Skills Used: JavaScript</h5>
-                    <div class="icons">
-                        <img src="/images/icons/js_light.png" alt="JavaScript logo" />
-                    </div>
-                </div>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://github.com/SummerPutman1/lets-cook"
+                aria-label="GitHub repo, opens in new tab"
+                >View GitHub Repo</a
+              >
             </div>
-        </section>
+          </div>
+          <div class="description">
+            <p>
+              Users can search for recipes based on any ingredient they have in
+              their kitchens or find inspiration with the quick search options.
+              With food allergies being a common concern when meal planning, all
+              food allergens are clearly labeled before the user even clicks to
+              open a recipe fully, saving them time and energy.
+            </p>
+            <h5>Skills Used: React, React Router, JavaScript</h5>
+            <div class="icons">
+              <img src="/images/icons/react_light.png" alt="React logo" />
+              <img src="/images/icons/js_light.png" alt="JavaScript logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="dictionary">
+        <div class="m-90 center">
+          <img src="./images/portfolio/Dictionary/diction_cropped.png" />
+          <div class="title">
+            <h4 class="center">Dictionary & Thesaurus</h4>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://summerputman1.github.io/dictionary-tthesaurus/"
+                aria-label="Live site, opens in new tab"
+                >View Live Site</a
+              >
+            </div>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://github.com/SummerPutman1/dictionary-tthesaurus"
+                aria-label="GitHub repo, opens in new tab"
+                >View GitHub Repo</a
+              >
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              My first JavaScript project consumed the Words API to create a
+              combined dictionary and thesaurus. This simple project was a great
+              learning experience that focused on interacting with an API
+              efficiently.
+            </p>
+            <h5>Skills Used: JavaScript</h5>
+            <div class="icons">
+              <img src="/images/icons/js_light.png" alt="JavaScript logo" />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <a href="https://github.com/SummerRollison" target="_blank" aria-label="GitHub - opens in new tab"><img
-                alt="GitHub" src="./images/icons/github_wht.png" width="25px" /></a>
-        <a href="https://www.linkedin.com/in/SummerPutman/" target="_blank"
-            aria-label="LinkedIn - opens in new tab"><img alt="LinkedIn" src="./images/icons/linkedin_wht.png"
-                width="25px" /></a>
-        <a href=" https://www.facebook.com/SummerPutmanRollison" target="_blank" aria-label="Facebook - opens
-                    in new tab"><img alt="facebook" src="./images/icons/facebook_wht.png" width="25px" /></a>
-        <a href="https://www.instagram.com/summerputman/" target="_blank" aria-label="Instagram - opens in new tab"><img
-                alt="Instagram" src="./images/icons/instagram_wht.png" width="25px" /></a>
+      <a
+        href="https://github.com/Summerputman1"
+        target="_blank"
+        aria-label="GitHub - opens in new tab"
+        ><img alt="GitHub" src="./images/icons/github_wht.png" width="25px"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/SummerPutman/"
+        target="_blank"
+        aria-label="LinkedIn - opens in new tab"
+        ><img alt="LinkedIn" src="./images/icons/linkedin_wht.png" width="25px"
+      /></a>
+      <a
+        href=" https://www.facebook.com/SummerPutman1"
+        target="_blank"
+        aria-label="Facebook - opens
+                    in new tab"
+        ><img alt="facebook" src="./images/icons/facebook_wht.png" width="25px"
+      /></a>
+      <a
+        href="https://www.instagram.com/summerputman/"
+        target="_blank"
+        aria-label="Instagram - opens in new tab"
+        ><img
+          alt="Instagram"
+          src="./images/icons/instagram_wht.png"
+          width="25px"
+      /></a>
     </footer>
 
     <script src="./carsousel.js"></script>
-</body>
-
+  </body>
 </html>
